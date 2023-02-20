@@ -2,7 +2,10 @@ import PropTypes from 'prop-types'
 
 import { ContactFormWrapper } from "./ContactForm.styled";
 
-export const ContactForm = ({ addContact, handleChange}) => {
+export const ContactForm = ({ addContact, handleChange }) => {
+    
+
+
     return (
         <ContactFormWrapper onSubmit={addContact}>
             <label>
