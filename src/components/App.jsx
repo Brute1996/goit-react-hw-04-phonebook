@@ -12,7 +12,6 @@ export const App = () => {
   const [filter, setFilter] = useState('');
   const [contacts, setContacts] = useState(JSON.parse(localStorage.getItem('savedContacts')) ?? []);
 
-
   const handleChange = (e) => {
     const { value, name } = e.target;
 
